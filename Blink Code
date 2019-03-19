@@ -1,0 +1,71 @@
+int led1 = D0; // Instead of writing D0 over and over again, we'll write led1
+// You'll need to wire an LED to this one to see it blink.
+
+int led2 = D7; 
+
+
+void setup() 
+{
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+
+}
+
+
+void loop() {
+  // T
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(500);
+  
+  //U
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(2000); //0.5+0.5+1
+  
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(500);
+  
+  //N
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(500);
+  
+  //A
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(500);
+  
+  //S
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(500);
+}
+
