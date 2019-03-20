@@ -1,4 +1,7 @@
-int led1 = D0; 
+
+
+int led1 = D0; // Instead of writing D0 over and over again, we'll write led1
+// You'll need to wire an LED to this one to see it blink.
 
 int led2 = D7; 
 
@@ -39,24 +42,22 @@ void dot()
 
 void loop() {
   // T
-  line;
+  line();
   
   //U
-  dot;
-  dot;
-  line;
+  dot();
+  dot();
+  line();
   
   //N
-  line;
-  dot;
+  line();
+  dot();
   //A
-  dot;
-  line;
+  dot();
+  line();
   //S
-  dot;
-  dot;
-  dot;
+  dot();
+  dot();
+  dot();
 }
-
-
 
